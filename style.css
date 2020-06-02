@@ -1,0 +1,40 @@
+@font-face{
+	font-family: ModernSans-Light;
+	src: url("res/ModernSans-Light.otf");
+}
+
+html {
+	background-color: #dedcdf;
+}
+
+body {
+	font-family: ModernSans-Light;
+	color: #263547;
+}
+
+header {
+	margin: 5%;
+}
+
+h1 {
+	font-size: 400%;
+	color: #34005d;
+}
+
+h2 {
+	font-size: 200%;
+	color: #f65d2c;
+}
+
+
+.icons-social-medias img {
+		width: 2%;
+		height: auto;
+		margin-right: 2%;
+		margin-left: 1%;
+}
+
+section {
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
