@@ -40,7 +40,7 @@
 			<img id="topButton" onclick="topFunction()" src="res/top.svg" alt="Top">
 
 			<section id="projects">
-				<h3>My projects</h3>
+				<h3>Projects</h3>
 				<div class="row">
 					<div class="column">
 						<div class="content">
@@ -111,26 +111,26 @@
 			<section id="languages">
 				<h3>Languages</h3>
 
-				<img src="res/france.png" alt="French flag">
+				<img @mouseover="seenFrench = true" @mouseleave="seenFrench = false" src="res/france.png" alt="French flag">
 				<div>
 					<h4>French</h4>
-					<p>Native</p>
+					<p v-if="seenFrench">Native</p>
 				</div>
-				<img src="res/uk.png" alt="United Kingdom flag">
+				<img @mouseover="seenEnglish = true" @mouseleave="seenEnglish = false" src="res/uk.png" alt="United Kingdom flag">
 				<div>
 					<h4>English</h4>
-					<p>Upper intermediate</p>
+					<p v-if="seenEnglish">Upper intermediate</p>
 				</div>
-				<img src="res/italy.png" alt="Italy flag">
+				<img @mouseover="seenItalian = true" @mouseleave="seenItalian = false" src="res/italy.png" alt="Italy flag">
 				<div>
 					<h4>Italian</h4>
-					<p>Basis</p>
+					<p v-if="seenItalian">Basis</p>
 				</div>
 
-				<img src="res/spain.png" alt="Spain flag">
+				<img @mouseover="seenSpanish = true" @mouseleave="seenSpanish = false" src="res/spain.png" alt="Spain flag">
 				<div>
 					<h4>Spanish</h4>
-					<p>Learning</p>
+					<p v-if="seenSpanish">Learning</p>
 				</div>
 			</section>
 
@@ -175,7 +175,7 @@
 			</section>
 
 			<section id="works">
-				<h3>My works</h3>
+				<h3>Works</h3>
 					<ul>
 						<li v-for="work in works">
 							<h4>{{work.startYear}} - {{work.endYear}}</h4>
@@ -187,7 +187,7 @@
 			</section>
 
 			<section id="studies">
-				<h3>My studies</h3>
+				<h3>Studies</h3>
 					<ul>
 						<li v-for="study in studies">
 							<h4>{{study.startYear}} - {{study.endYear}}</h4>
@@ -199,13 +199,44 @@
 			</section>
 
 			<section id="hobbies">
+				<h3>My Hobbies</h3>
+
+				<img @mouseover="seenHike = true" @mouseleave="seenHike = false" src="res/hiking.png" alt="Hiking">
+				<div>
+					<p v-if="seenHike">Hike</p>
+				</div>
+
+
+				<img @mouseover="seenSki = true" @mouseleave="seenSki = false" src="res/skiing.png" alt="Ski">
+				<div>
+					<p v-if="seenSki">Ski</p>
+				</div>
+
+
+				<img @mouseover="seenBike = true" @mouseleave="seenBike = false" src="res/bike_.png" alt="Bike">
+				<div>
+					<p v-if="seenBike">Bike</p>
+				</div>
+
+
+				<img @mouseover="seenCinema = true" @mouseleave="seenCinema = false"src="res/cinema.png" alt="Cinema">
+				<div>
+					<p v-if="seenCinema">Cinema</p>
+				</div>
+
+
+				<img @mouseover="seenClimate = true" @mouseleave="seenClimate = false" src="res/climate-change.png" alt="Climate Change">
+				<div>
+					<p v-if="seenClimate">Concerned about climate change</p>
+				</div>
 
 			</section>
+		</div>
 
-			<footer>
-				<p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-				<p>© Developed by Camille CHAULAIC</p>
-			</footer>
+		<footer>
+			<p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+			<p>© Developed by Camille CHAULAIC</p>
+		</footer>
 		<script src="vue.js"></script>
 		<script src="main.js"></script>
 	</body>

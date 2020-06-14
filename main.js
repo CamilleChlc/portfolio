@@ -57,7 +57,7 @@ var app = new Vue({
 			},
 			{ name: "Digital Immersive Museum",
 				year: 2020,
-				description: "As part of the PHP / Symfony course during the LP DIM, I created with two other people a crowdfunding platform in Symfony.",
+				description: "With three others students, we created Digital Immersive Museum, ou final year university project. This project aimed to introduce innovative and interactive experience to the visitors of La Turbine exhibition center.",
 				technologies : ["Android", "Kotlin", "Eye tracking", "Javascript"],
 				image: "res/antivirus-Accueil.png"
 			}
@@ -117,7 +117,16 @@ var app = new Vue({
 				localisation: 'Pierre Beghin High School - Moirans, France',
 				description: 'High school diplom specialized in biology and with European section'
 			}
-		]
+		],
+		seenFrench: false,
+		seenEnglish : false,
+		seenItalian: false,
+		seenSpanish: false,
+		seenHike: false,
+		seenSki: false,
+		seenBike: false,
+		seenCinema: false,
+		seenClimate: false
 	}
 })
 
