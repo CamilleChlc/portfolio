@@ -69,23 +69,23 @@ var app = new Vue({
 				type: "Work-study contract",
 				company: "Joseph Martin (Bar turning industry)",
 				localisation: "Vougy, France",
-				description: "Development of industrial production interfaces : identification of needs, data acquisition and processing (Microsoft SQL Server), fullstack development (Javascript + Frameworks)"
+				description: "Development of industrial production interfaces : identification of needs, data acquisition and processing (Microsoft SQL Server), fullstack development (Javascript + Frameworks)."
 			},
 			{
 				startYear: 2018,
 				endYear: 2019,
 				type: "Volunteering",
-				company: "Unis-cité des Savoies (Volunteer association)",
+				company: "Unis-Cité des Savoies (Volunteer association)",
 				localisation: "Chambéry, France",
-				description: "Voluntary engagement on two distinct missions : creation of educational tools to raise public awarness on sustainable development in mountain territories & animation of digital workshops in retirement homes"
+				description: "Voluntary engagement on two distinct missions : creation of educational tools to raise public awarness on sustainable development in mountain territories & animation of digital workshops in retirement homes."
 			},
 			{
 				startYear: 2018,
 				endYear: 2018,
-				type: "Intership",
+				type: "Internship",
 				company: "Orange Labs (Telecommunication)",
 				localisation: "Meylan, France",
-				description: "Development of a agile dashboard for a project team : identification of needs, data acquisition, fullstack development (Javascript + Frameworks)"
+				description: "Development of an agile dashboard for a project team : identification of needs, data acquisition, fullstack development (Javascript + Frameworks)."
 			}
 		],
 		studies: [
@@ -115,7 +115,7 @@ var app = new Vue({
 				endYear: 2015,
 				title: 'Scientific Baccalaureat',
 				localisation: 'Pierre Beghin High School - Moirans, France',
-				description: 'High school diplom specialized in biology and with European section'
+				description: 'High school diploma specialized in biology and with European section'
 			}
 		],
 		seenAntivirus : false,
