@@ -332,8 +332,47 @@ section h3 {
 	width: 35%;
 }
 
+#works li {
+	list-style: url("res/work.svg");
+}
+
+#works h4 {
+	font-size: 110%;
+	text-decoration: underline #34005d;
+	text-underline-offset: 8px;
+}
+
+#works .title {
+	font-weight: bold;
+	color: #f65d2c;
+}
+
+#works .type {
+	color: #34005d;
+}
+
+#studies h3 {
+	margin-bottom: 2%;
+}
+
 #studies ul {
 	margin: 0;
+	list-style: url("res/book.svg");
+}
+
+#studies h4 {
+	font-size: 110%;
+	text-decoration: underline #34005d;
+	text-underline-offset: 8px;
+}
+
+#studies .title {
+	font-weight: bold;
+	color: #f65d2c;
+}
+
+#studies .localisation {
+	color: #34005d;
 }
 
 #hobbies {
