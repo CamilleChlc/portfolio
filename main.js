@@ -125,6 +125,7 @@ var app = new Vue({
 		seenJeu: false,
 		seenSpace: false,
 		seenMovies: false,
+		seenAuk: false,
 		seenDIM: false,
 		seenFrench: false,
 		seenEnglish : false,

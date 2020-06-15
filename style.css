@@ -129,53 +129,39 @@ section h3 {
 
 #projects {
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25% ;
-	grid-row: 33.3% 33.3% 33.3%;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	grid-row: 50% 50% 50% 50%;
 }
 
 #projects h3 {
 	grid-row: 1 / span 1;
-	grid-column: 1 / span 4;
+	grid-column: 1 / span 3;
 }
 
 #projects img {
-	width: 50%;
+	width: 20%;
 	height: auto;
 	display: block;
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
 }
-/*
-#projects {
-	box-sizing: border-box;
+
+#projects img:hover {
+	transition: 0.5s;
 }
 
-#projects img {
-	width: 50%;
-	height: auto;
+.project {
+	opacity: 0;
+	text-align: center;
 }
 
-#projects .row,
-.row > .column {
-	padding: 8px;
+.project:hover {
+	opacity: 1;
+	transition: opacity .5;
 }
 
-#projects .column {
-	float: left;
-	width: 25%;
-}
 
-#projects .row::after {
-	content: "";
-  display: table;
-  clear: both;
-}
-
-#projects .content {
-  background-color: white;
-  padding: 10px;
-}*/
 
 #languages {
 	display: grid;
