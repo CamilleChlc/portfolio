@@ -118,6 +118,14 @@ var app = new Vue({
 				description: 'High school diplom specialized in biology and with European section'
 			}
 		],
+		seenAntivirus : false,
+		seenIle: false,
+		seenMath: false,
+		seenRace: false,
+		seenJeu: false,
+		seenSpace: false,
+		seenMovies: false,
+		seenDIM: false,
 		seenFrench: false,
 		seenEnglish : false,
 		seenItalian: false,

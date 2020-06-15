@@ -81,10 +81,12 @@ nav {
 
 nav a {
 	margin: 2%;
+	margin-left: 7%;
 	text-decoration: none;
 	font-size: 120%;
 	font-weight: bold;
 	color: #1b2532;
+	text-align: center;
 }
 
 nav a:hover {
@@ -126,6 +128,26 @@ section h3 {
 }
 
 #projects {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25% ;
+	grid-row: 33.3% 33.3% 33.3%;
+}
+
+#projects h3 {
+	grid-row: 1 / span 1;
+	grid-column: 1 / span 4;
+}
+
+#projects img {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+#projects {
 	box-sizing: border-box;
 }
 
@@ -153,7 +175,7 @@ section h3 {
 #projects .content {
   background-color: white;
   padding: 10px;
-}
+}*/
 
 #languages {
 	display: grid;
@@ -208,6 +230,10 @@ section h3 {
 	text-align: left;
 }
 
+#it-skills h4 {
+	font-size: 110%;
+}
+
 #it-skills .software {
 	grid-row: 2 / span 1;
 	display: grid;
@@ -220,6 +246,13 @@ section h3 {
 	grid-row: 1 / span 1;
 	grid-column: 1 / span 3;
 	margin-top: 0;
+}
+
+.software img {
+	width: 35%;
+	height: auto;
+	margin-left: 33.3%;
+	margin-right: 33.3%;
 }
 
 #it-skills .web {
@@ -235,6 +268,13 @@ section h3 {
 	margin-top: 0;
 }
 
+.web img {
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
 #it-skills .tools {
 	display: grid;
 	grid-template-columns: 33.3% 33.3% 33.3%;
@@ -246,6 +286,13 @@ section h3 {
 	grid-row: 1 / span 1;
 	grid-column: 1 / span 3;
 	margin-top: 0;
+}
+
+.tools img {
+	width: 35%;
+	height: auto;
+	margin-left: 33.3%;
+	margin-right: 33.3%;
 }
 
 #it-skills .methodologies {
@@ -261,6 +308,13 @@ section h3 {
 	margin-top: 0;
 }
 
+.methodologies img {
+	width: 35%;
+	height: auto;
+	margin-left: 32.9%;
+	margin-right: 32.9%;
+}
+
 #it-skills .others {
 	grid-column: 1 / span 2;
 	display: grid;
@@ -273,6 +327,13 @@ section h3 {
 	grid-row: 1 / span 1;
 	grid-column: 1 / span 4;
 	margin-top: 0;
+}
+
+.others img {
+	width: 30%;
+	height: auto;
+	margin-left: 35%;
+	margin-right: 35%;
 }
 
 .personnal-skills {
